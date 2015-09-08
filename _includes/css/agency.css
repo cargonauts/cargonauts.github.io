@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.color.secondary-dark }};
+    background-color: #00b3fe;
 }
 
 .text-muted {
@@ -279,11 +280,10 @@ header {
 
 header .intro-text {
     padding-top: 80px;
-    padding-bottom: 50px;
 }
 
 header .intro-text .intro-button {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 header .img-responsive {
@@ -313,7 +313,6 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 250px;
-        padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
